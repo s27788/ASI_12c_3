@@ -30,7 +30,7 @@ Celem projektu jest stworzenie end-to-end systemu ML zgodnie z podejściem MLOps
 
 **Charakterystyka:**
 - Dane tabelaryczne
-- >100 000 obserwacji
+- ponad 100 000 obserwacji
 - Zmienne: demografia, klasa podróży, opóźnienia, oceny usług
 
 ---
