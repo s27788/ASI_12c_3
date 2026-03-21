@@ -2,12 +2,12 @@
 Architektury rozwiązań i metodyki wdrożeń SI , grupa 3.
 
 ### 👥 Zespół
-s27788	Lidia Kongiel
-s27841	Maria Góral
-s26786	Michał Sobieski
-s24602	Mateusz Brański
-s25698	Bartłomiej Kąkol
----
+
+- s27788 — Lidia Kongiel  
+- s27841 — Maria Góral  
+- s26786 — Michał Sobieski  
+- s24602 — Mateusz Brański  
+- s25698 — Bartłomiej Kąkol
 
 ## 🎯 Cel projektu
 
