@@ -34,3 +34,33 @@ Celem projektu jest stworzenie end-to-end systemu ML zgodnie z podejściem MLOps
 - Zmienne: demografia, klasa podróży, opóźnienia, oceny usług
 
 ---
+
+## Sprint 1
+
+Zrealizowane elementy:
+
+- ✔ Ingest danych z CSV do SQLite (`data/01_raw/*.sqlite`)
+- ✔ Eksploracyjna analiza danych (EDA) – min. 5 wizualizacji:
+    - rozkład targetu
+    - histogram cechy numerycznej
+    - boxplot względem targetu
+    - rozkład cechy kategorycznej
+    - macierz korelacji
+- ✔ Podział danych: train / validation / test (70/15/15)
+- ✔ Pipeline preprocessing (imputacja + one-hot encoding)
+- ✔ Model baseline: `RandomForestClassifier`
+- ✔ Ewaluacja modelu (accuracy, precision, recall, F1, ROC-AUC)
+- ✔ Zapis metryk do pliku JSON (`reports/metrics/baseline_metrics.json`)
+
+---
+
+## Uruchomienie
+### 1. Przygotuj środowisko (np. conda lub venv)
+
+#### conda
+```bash
+conda create -n <env_name> python=3.10
+conda activate <env_name>
+pip install -r requirements.txt
+```
+---
