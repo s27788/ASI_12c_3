@@ -1,5 +1,17 @@
 {
   "dataset": "airline_passenger_satisfaction",
-  "status": "pending_notebook_run",
-  "message": "placeholder"
+  "split": {
+    "train": 90916,
+    "val": 19482,
+    "test": 19482
+  },
+  "model": "RandomForestClassifier",
+  "metrics_scope": "validation",
+  "validation_metrics": {
+    "accuracy": 0.9618109023714198,
+    "precision_macro": 0.9630293884927859,
+    "recall_macro": 0.9593355742673699,
+    "f1_macro": 0.9609948138787408,
+    "roc_auc": 0.9942560909952814
+  }
 }

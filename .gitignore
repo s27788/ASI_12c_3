@@ -9,11 +9,7 @@ __pycache__/
 *.egg-info/
 
 # Dane i modele
-data/*
-!data/01_raw/
-!data/01_raw/.gitkeep
-data/01_raw/*.csv
-data/01_raw/*.sqlite
+data/
 *.db
 *.pkl
 AutogluonModels/
