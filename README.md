@@ -55,7 +55,7 @@ Zrealizowane elementy:
 ---
 
 ## Uruchomienie
-### 1. Przygotuj środowisko (np. conda lub venv)
+### 1. Przygotuj środowisko
 
 #### conda
 ```bash
